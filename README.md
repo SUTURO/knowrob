@@ -21,18 +21,18 @@ These instructions will get you a copy of KnowRob up and running on your local m
 
 ### Installation
 
-KnowRob uses the [catkin](http://wiki.ros.org/catkin) buildsystem that has been the main ROS buildsystem.
+KnowRob uses the [catkin build](https://catkin-tools.readthedocs.io/en/latest/verbs/catkin_build.html) buildsystem that has been the main ROS buildsystem.
 We have prepared different *.rosinstall* setup files that you can add to your ROS workspace as described [here](http://www.ros.org/wiki/ROS/Tutorials/InstallingandConfiguringROSEnvironment).
 
 ```Bash
 rosdep update
-cd ~/catkin_ws/src
+cd ~/knowrob_ws/src
 wstool init
-wstool merge https://raw.github.com/knowrob/knowrob/master/rosinstall/knowrob-base.rosinstall
+wstool merge https://raw.github.com/suturo/knowrob/master/rosinstall/knowrob-base.rosinstall
 wstool update
 rosdep install --ignore-src --from-paths .
-cd ~/catkin_ws
-catkin_make
+cd ~/knowrob_ws
+catkin build
 ```
 
 You may further need to set the *SWI_HOME_DIR* environment variable to the installation location of *swipl*:
