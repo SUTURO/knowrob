@@ -1,4 +1,4 @@
-- git: {local-name: knowrob, uri: 'git@github.com:SUTURO/knowrob.git', version: master }
+- git: {local-name: knowrob, uri: 'git@github.com:SUTURO/knowrob.git', version: neems }
 - git: {local-name: rosprolog, uri: 'git@github.com:SUTURO/rosprolog.git', version: master }
 - git: {local-name: iai_common_msgs, uri: 'https://github.com/code-iai/iai_common_msgs.git', version: master }
 - git: {local-name: suturo_knowledge, uri: 'git@github.com:hawkina/suturo_knowledge.git', version: neems}
