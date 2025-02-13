@@ -28,7 +28,7 @@ We have prepared different *.rosinstall* setup files that you can add to your RO
 rosdep update
 cd ~/knowrob_ws/src
 wstool init
-wstool merge https://raw.github.com/suturo/knowrob/neemsr/rosinstall/knowrob-base.rosinstall
+wstool merge https://raw.github.com/suturo/knowrob/neems/rosinstall/knowrob-base.rosinstall
 wstool update
 rosdep install --ignore-src --from-paths .
 cd ~/knowrob_ws
